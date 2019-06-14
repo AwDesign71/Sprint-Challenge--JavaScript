@@ -15,9 +15,29 @@
 // Using your dinosaur objects, log answers to these questions:
 
 // How much did tyrannosaurus weigh?
-console.log();
+const tyrannosaurus = {
+  name: 'Tyrannosaurus',
+  diet: 'Carnivorous',
+  wieght: '7000kg',
+  length: '12m',
+  period: 'Late Cretaceous',
+  roar: function() {
+    return 'RAWERSRARARWERSARARARRRR!'
+  }
+}
+console.log(`${tyrannosaurus.name} ${tyrannosaurus.wieght}`);
 
 // What was the diet of a velociraptor?
+const velociraptor = {
+  name: 'Velociraptor',
+  diet: 'Carnivorous',
+  wieght: '7000kg',
+  length: '12m',
+  period: 'Late Cretaceous',
+  roar: function() {
+    return 'RAWERSRARARWERSARARARRRR!'
+  }
+}
 console.log();
 
 // How long was a stegosaurus?
