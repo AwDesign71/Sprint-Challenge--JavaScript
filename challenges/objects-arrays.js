@@ -151,7 +151,7 @@ The zoos are concenred about animals with a lower population count. Find out whi
 let lowerPopulation = [];
 lowerPopulation = zooAnimals.filter(function(populate) {
  
-   return populate.population == 5;
+   return populate.population < 5;
 });
 
 console.log(lowerPopulation);
