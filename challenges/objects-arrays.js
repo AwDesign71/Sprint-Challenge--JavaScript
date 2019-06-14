@@ -31,24 +31,28 @@ console.log(`${tyrannosaurus.name} ${tyrannosaurus.wieght}`);
 const velociraptor = {
   name: 'Velociraptor',
   diet: 'Carnivorous',
-  wieght: '7000kg',
-  length: '12m',
+  wieght: '15kg',
+  length: '1.8m',
   period: 'Late Cretaceous',
-  roar: function() {
-    return 'RAWERSRARARWERSARARARRRR!'
-  }
 }
-console.log();
+console.log(`${velociraptor.name} ${velociraptor.diet}`);
 
 // How long was a stegosaurus?
-console.log();
+const stegosaurus = {
+  name: 'Stegosaurus',
+  diet: 'Herbivorous',
+  wieght: '2000kg',
+  length: '9m',
+  period: 'Late Jurassic',
+}
+console.log(`${stegosaurus.name} ${stegosaurus.period}`);
 
 // What time period did tyrannosaurus live in?
-console.log();
+console.log(`${tyrannosaurus.name} ${tyrannosaurus.period}`);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+console.log(`${tyrannosaurus.name} ${tyrannosaurus.roar()}`);
 
 
 // ==== Arrays ====
